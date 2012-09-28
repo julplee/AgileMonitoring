@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileMonitoring.DomainModel", "AgileMonitoring.DomainModel\AgileMonitoring.DomainModel.csproj", "{605C6C6E-F751-4073-81DD-16291AD88B74}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Data Access Layer", "1.Data Access Layer", "{D01CA539-8E49-4055-9FBE-1D36575AD5FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Business Logic Layer", "2.Business Logic Layer", "{567ACDD9-9141-48F2-9FB0-AB8CB542F2BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Service Layer", "3.Service Layer", "{930FBE0C-5862-49DD-AB6C-458D16A08E7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.User Experience Layer", "4.User Experience Layer", "{E6A48EF2-6CFF-41DE-817E-BB32FC30AAA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileMonitoring.WebUI", "AgileMonitoring.WebUI\AgileMonitoring.WebUI.csproj", "{3C107EAA-DBF6-4A93-988E-F42890874292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +23,16 @@ Global
 		{605C6C6E-F751-4073-81DD-16291AD88B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{605C6C6E-F751-4073-81DD-16291AD88B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{605C6C6E-F751-4073-81DD-16291AD88B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C107EAA-DBF6-4A93-988E-F42890874292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C107EAA-DBF6-4A93-988E-F42890874292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C107EAA-DBF6-4A93-988E-F42890874292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C107EAA-DBF6-4A93-988E-F42890874292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{605C6C6E-F751-4073-81DD-16291AD88B74} = {567ACDD9-9141-48F2-9FB0-AB8CB542F2BA}
+		{3C107EAA-DBF6-4A93-988E-F42890874292} = {E6A48EF2-6CFF-41DE-817E-BB32FC30AAA0}
 	EndGlobalSection
 EndGlobal
