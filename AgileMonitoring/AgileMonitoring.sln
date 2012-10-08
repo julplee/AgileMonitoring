@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileMonitoring.WebApi.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileMonitoring.Persistance", "AgileMonitoring.Persistance\AgileMonitoring.Persistance.csproj", "{53FD8FB6-FD44-4D9F-B24C-5FEBB3B19627}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileMonitoring.DomainModel.Tests", "AgileMonitoring.DomainModel.Tests\AgileMonitoring.DomainModel.Tests.csproj", "{D68BD76A-DBE9-4552-A459-B3CC03753F37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,12 +63,17 @@ Global
 		{53FD8FB6-FD44-4D9F-B24C-5FEBB3B19627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53FD8FB6-FD44-4D9F-B24C-5FEBB3B19627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53FD8FB6-FD44-4D9F-B24C-5FEBB3B19627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68BD76A-DBE9-4552-A459-B3CC03753F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68BD76A-DBE9-4552-A459-B3CC03753F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68BD76A-DBE9-4552-A459-B3CC03753F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68BD76A-DBE9-4552-A459-B3CC03753F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{605C6C6E-F751-4073-81DD-16291AD88B74} = {567ACDD9-9141-48F2-9FB0-AB8CB542F2BA}
+		{D68BD76A-DBE9-4552-A459-B3CC03753F37} = {567ACDD9-9141-48F2-9FB0-AB8CB542F2BA}
 		{53FD8FB6-FD44-4D9F-B24C-5FEBB3B19627} = {D01CA539-8E49-4055-9FBE-1D36575AD5FB}
 		{C482A77C-D3A1-4899-917A-704B4292ADB5} = {930FBE0C-5862-49DD-AB6C-458D16A08E7E}
 		{BF21666A-1DE9-479A-9974-38178F4E0E7F} = {930FBE0C-5862-49DD-AB6C-458D16A08E7E}
