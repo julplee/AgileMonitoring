@@ -1,7 +1,7 @@
-﻿namespace AgileMonitoring.DomainModel.Feature
+﻿namespace AgileMonitoring.Persistance.Feature
 {
     /// <summary>
-    /// MoSCoW priorities
+    /// MoSCoW priorities as level examples
     /// </summary>
     public enum PriorityType : short
     {
@@ -11,14 +11,9 @@
         NONE = 0,
 
         /// <summary>
-        /// urgent level
+        /// nice to have level
         /// </summary>
-        MUST = 4,
-
-        /// <summary>
-        /// mandatory level
-        /// </summary>
-        SHOULD = 3,
+        WOULD = 1,
 
         /// <summary>
         /// optional level
@@ -26,8 +21,13 @@
         COULD = 2,
 
         /// <summary>
-        /// nice to have level
+        /// mandatory level
         /// </summary>
-        WOULD = 1,
+        SHOULD = 3,
+
+        /// <summary>
+        /// urgent level
+        /// </summary>
+        MUST = 4,
     }
 }

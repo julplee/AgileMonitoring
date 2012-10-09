@@ -1,4 +1,4 @@
-﻿namespace AgileMonitoring.DomainModel.Feature
+﻿namespace AgileMonitoring.Persistance.Feature
 {
     /// <summary>
     /// A step to be done in a user story.

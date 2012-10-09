@@ -1,4 +1,4 @@
-﻿namespace AgileMonitoring.DomainModel.Feature
+﻿namespace AgileMonitoring.Persistance.Feature
 {
     #region
 
@@ -42,7 +42,7 @@
         }
 
         /// <summary>
-        /// Gets or sets user story priority.
+        /// Gets or sets user story priority level.
         /// </summary>
         public PriorityType Priority
         {

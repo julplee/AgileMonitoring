@@ -36,6 +36,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileMonitoring.Persistance", "AgileMonitoring.Persistance\AgileMonitoring.Persistance.csproj", "{53FD8FB6-FD44-4D9F-B24C-5FEBB3B19627}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileMonitoring.DomainModel.Tests", "AgileMonitoring.DomainModel.Tests\AgileMonitoring.DomainModel.Tests.csproj", "{D68BD76A-DBE9-4552-A459-B3CC03753F37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{605C6C6E-F751-4073-81DD-16291AD88B74} = {605C6C6E-F751-4073-81DD-16291AD88B74}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
