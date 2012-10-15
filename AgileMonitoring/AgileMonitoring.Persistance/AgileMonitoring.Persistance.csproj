@@ -51,6 +51,7 @@
     <Compile Include="Feature\PriorityType.cs" />
     <Compile Include="Feature\Task.cs" />
     <Compile Include="Feature\UserStory.cs" />
+    <Compile Include="Individual\IndividualRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
