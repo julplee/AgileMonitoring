@@ -2,6 +2,7 @@
 {
     using AgileMonitoring.Persistance.Feature;
     using AgileMonitoring.Persistance.Individual;
+    using UserStory;
 
     /// <summary>
     /// A step to be done in a user story.

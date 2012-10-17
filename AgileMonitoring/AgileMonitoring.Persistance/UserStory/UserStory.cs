@@ -1,10 +1,13 @@
-﻿namespace AgileMonitoring.Persistance.UserStory
+﻿using AgileMonitoring.Persistance.Feature;
+
+namespace AgileMonitoring.Persistance.UserStory
 {
     #region
 
     using System;
     using System.Collections.Generic;
-    using AgileMonitoring.Persistance.Task;
+    using Task;
+    using Individual;
 
     #endregion
 
@@ -118,6 +121,17 @@
         /// Gets or sets the project for this US.
         /// </summary>
         public Project Project { get; set; }
+
+        /// <summary>
+        /// Gets or sets the developpers for this US
+        /// </summary>
+        public IList<Individual> Developers { get; set; }
+
+        /// <summary>
+        /// Gets or sets the state of this US
+        /// </summary>
+        public State State { get; set; }
+
 
         #endregion
     }

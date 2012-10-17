@@ -5,6 +5,7 @@
     using System.Linq;
     using System.Text;
     using AgileMonitoring.Persistance.Individual;
+    using AgileMonitoring.Persistance.UserStory;
 
     public class Project
     {

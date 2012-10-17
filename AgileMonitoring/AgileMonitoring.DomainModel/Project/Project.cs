@@ -1,4 +1,6 @@
-﻿namespace AgileMonitoring.DomainModel.Project
+﻿using AgileMonitoring.Persistance.UserStory;
+
+namespace AgileMonitoring.DomainModel.Project
 {
     using System;
     using System.Collections.Generic;

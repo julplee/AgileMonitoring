@@ -48,13 +48,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Feature\FeatureRepository.cs" />
-    <Compile Include="Feature\PriorityType.cs" />
+    <Compile Include="UserStory\PriorityType.cs" />
+    <Compile Include="Feature\Project.cs" />
     <Compile Include="Task\Task.cs" />
-    <Compile Include="Feature\UserStory.cs" />
+    <Compile Include="UserStory\State.cs" />
+    <Compile Include="UserStory\UserStory.cs" />
     <Compile Include="Individual\Individual.cs" />
     <Compile Include="Individual\IndividualRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task\TaskRepository.cs" />
+    <Compile Include="UserStory\UserStoryRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
