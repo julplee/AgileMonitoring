@@ -114,6 +114,11 @@
             set;
         }
 
+        /// <summary>
+        /// Gets or sets the project for this US.
+        /// </summary>
+        public Project Project { get; set; }
+
         #endregion
     }
 }
