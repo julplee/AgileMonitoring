@@ -1,6 +1,5 @@
 ﻿namespace AgileMonitoring.Persistance.Individual
 {
-    using AgileMonitoring.DomainModel;
     using System.Data.Entity;
 
     /// <summary>
