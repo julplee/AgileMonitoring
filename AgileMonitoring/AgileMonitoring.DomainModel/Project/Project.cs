@@ -5,12 +5,16 @@
     using System.Linq;
     using System.Text;
 
+    using AgileMonitoring.Persistance.Feature;
+    using AgileMonitoring.Persistance.Individual;
+
     /// <summary>
     /// TODO: Update summary.
     /// </summary>
     public class Project
     {
         private DateTime _beginDateUtc;
+        private DateTime _endDateUtc;
 
         public Project(string name)
         {
@@ -27,8 +31,9 @@
         {
             get
             {
-                // TODO calculate this date (consider state)
+                return this._endDateUtc.ToLocalTime();
             }
+            set { this._endDateUtc = value.ToUniversalTime(); }
         }
 
         public DateTime DueDate { get; set; }
