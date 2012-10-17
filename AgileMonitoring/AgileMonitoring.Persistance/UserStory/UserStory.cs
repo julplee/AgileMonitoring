@@ -1,4 +1,4 @@
-﻿namespace AgileMonitoring.Persistance.Feature
+﻿namespace AgileMonitoring.Persistance.UserStory
 {
     #region
 
