@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Http;
 
 namespace AgileMonitoring.WebApi.Controllers
 {
@@ -10,7 +11,8 @@ namespace AgileMonitoring.WebApi.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var apiExplorer = GlobalConfiguration.Configuration.Services.GetApiExplorer();
+            return View(apiExplorer);
         }
     }
 }
